@@ -1,2 +1,2 @@
 # c-server
-Simple TCP-server written in C
+Multi-threaded TCP-server written in C
