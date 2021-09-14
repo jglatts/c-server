@@ -1,8 +1,3 @@
-/*
-	CIS3207 LAB3
-
-	author: John Glatts
-*/
 #ifndef SERVER__H
 #define SERVER__H
 
