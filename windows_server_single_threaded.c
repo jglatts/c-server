@@ -1,5 +1,5 @@
 /*
-  Simple HTTP-TCP server for Windows platforms
+  	Simple HTTP-TCP server for Windows platforms
 
 	Author: John Glatts
 	Compiler: Microsoft (R) C/C++ Optimizing Compiler Version 19.23.28107 for x86
@@ -50,7 +50,7 @@ void init_server(SOCKET* server_socket) {
 	}
 
 	server.sin_family = AF_INET;			// TCP socket
-	server.sin_addr.s_addr = INADDR_ANY;	// default source address
+	server.sin_addr.s_addr = INADDR_ANY;		// default source address
 	server.sin_port = htons(8888);			// port #8888
 
 	if (inet_ntop(AF_INET, (PVOID)&((PSOCKADDR_IN)&server)->sin_addr, ip, 100)) {
