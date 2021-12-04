@@ -7,8 +7,8 @@
 #define MAX_WORK_THREADS    8
 #define QUEUE_SIZE          8
 
-#define for_each_in_waitlist(list) \
-        for(WaitList* n = list->head; n; n = n->next;)
+#define for_each_in_waitlist() \
+        for(WaitList* n = list->head; n; n = n->next)
 
 typedef struct WaitList {
         int fd;
