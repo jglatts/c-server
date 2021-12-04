@@ -1,8 +1,3 @@
-/*
-        CIS3207 LAB3
-
-        author: John Glatts
-*/
 #include "server.h"
 #include <stdio.h>
 #include <stdlib.h>
